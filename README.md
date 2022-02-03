@@ -23,7 +23,33 @@ cd cooking-time
 From the command line, you should Enter:
 ```bash
 npm install 
-node app.js
+yarn add
+```
+
+## Add .env 
+
+.env file like this...
+
+```bash
+
+REACT_APP_FOOD_API_KEY=a6xxxxxxxxxxxxxxxxxxxxxxxxxxxx5a
+REACT_APP_FOOD_API_KEY2=0cxxxxxxxxxxxxxxxxxxxxxxxxxxxxcf
+REACT_APP_FOOD_API_KEY3=68xxxxxxxxxxxxxxxxxxxxxxxxxxxxb3
+REACT_APP_FOOD_API_KEY4=6axxxxxxxxxxxxxxxxxxxxxxxxxxxx34
+REACT_APP_FOOD_API_KEY5=c2xxxxxxxxxxxxxxxxxxxxxxxxxxxxa5
+REACT_APP_FOOD_API_KEY6=c2xxxxxxxxxxxxxxxxxxxxxxxxxxxx0f
+REACT_APP_FOOD_API_KEY7=c5xxxxxxxxxxxxxxxxxxxxxxxxxxxx40
+REACT_APP_FOOD_API_KEY8=15xxxxxxxxxxxxxxxxxxxxxxxxxxxxae
+REACT_APP_FOOD_API_KEY9=58xxxxxxxxxxxxxxxxxxxxxxxxxxxx3b
+REACT_APP_FOOD_API_KEY10=48xxxxxxxxxxxxxxxxxxxxxxxxxxxx8a
+
+```
+
+## Run ⚡
+
+```
+yarn start
+
 ```
 
 ---

@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Bevan&display=swap");
+
+
+#myNavbar{
+  position: fixed;
+  top: 0;
+  transition: top 0.3s; 
+}
+
+.searchBox {
+  height: 50px;
+  width: 40vw;
+  display: block;
+  border: none;
+  outline: none;
+  font-size: 18px;
+}
+
+.searchBox::placeholder {
+  padding-left: 10px;
+  font-weight: lighter;
+  color: rgb(179, 179, 179);
+  font-size: 18px;
+  letter-spacing: 0.2px;
+}
+
+.BottomSearchBox {
+  width: 80%;
+  height: 60px;
+  margin-right: auto;
+  display: block;
+  border: none;
+  outline: none;
+  padding-left: 38px;
+  font-size: 18px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+@media screen and (max-width:599px) {
+  .BottomSearchBox{
+    padding-left: 30px;
+  }
+}
+
+.BottomSearchBox::placeholder {
+  font-weight: lighter;
+  color: rgb(179, 179, 179);
+  font-size: 18px;
+  letter-spacing: 0.2px;
+}
+
+@media screen and (max-width: 380px) {
+  .BottomSearchBox::placeholder {
+    visibility: hidden;
+  }
+}
+
+.SearchBtn:hover {
+  background-color: #f23224 !important;
+}

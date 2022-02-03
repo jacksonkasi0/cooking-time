@@ -1,0 +1,103 @@
+:root {
+  --swiper-theme-color: #000;
+  --swiper-navigation-size:30px;
+}
+
+.mySwiper {
+  width: 100%;
+  height: 120px;
+  margin-top: 5px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.swiper_slide {
+  text-align: center;
+  background: white;
+  height: 130px;
+  display: flex;
+  justify-content: space-between;
+}
+.swiper_slide:hover {
+  cursor: pointer;
+  background: whitesmoke;
+}
+
+.swiper_slide img {
+  margin: 10px;
+  display: flex;
+  width: 150px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.title {
+  display: block; /* Fallback for non-webkit */
+  text-align: start;
+  display: -webkit-box;
+  height: 5.4em; /* Fallback for non-webkit, line-height * 2 */
+  line-height: 1.3em;
+  -webkit-line-clamp: 4; /* if you change this, make sure to change the fallback line-height and height */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.time {
+  position: absolute;
+  bottom: 10px;
+  font-size: 13px;
+  color: gray;
+}
+
+
+.swiper-button-next:after,.swiper-rtl .swiper-button-prev:after :hover{
+  background: red !important;
+  height: 100px;
+  width: 50px;
+}
+
+/* mobile view slider */
+
+@media screen and (max-width: 509px) {
+  .mySwiper {
+    width: 100%;
+    height: 190px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  }
+
+  .swiper_slide {
+    text-align: center;
+    background: white;
+    display: block;
+    height: 190px;
+    margin: auto 10px;
+  }
+
+  .swiper_slide img {
+    margin: 0;
+    display: block;
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+  }
+
+  .title {
+    display: block; /* Fallback for non-webkit */
+    text-align: start;
+    padding: 0 5px;
+    display: -webkit-box;
+    line-height: 1.3em;
+    height: 2.8em; /* Fallback for non-webkit, line-height * 2 */
+    -webkit-line-clamp: 2; /* if you change this, make sure to change the fallback line-height and height */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .time {
+    bottom: -28px;
+    font-size: 13px;
+    padding: 0 8px;
+    color: gray;
+  }
+}

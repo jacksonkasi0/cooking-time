@@ -1,0 +1,15 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+.summary{
+    color: rgb(99, 99, 99);
+    display: block; 
+    text-align: start;
+    display: -webkit-box;
+    line-height: 1.3em;
+    height: 4.1em; 
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

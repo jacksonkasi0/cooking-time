@@ -11,7 +11,6 @@ Create a new directory, navigate to that directory in a terminal and clone the G
 
 ```
 git clone https://github.com/jacksonkasi0/cooking-time.git
-
 ```
 
 Change directory to the pattern directory:
@@ -49,7 +48,6 @@ REACT_APP_FOOD_API_KEY10=48xxxxxxxxxxxxxxxxxxxxxxxxxxxx8a
 
 ```
 yarn start
-
 ```
 
 ---
